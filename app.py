@@ -7,7 +7,7 @@ st.set_page_config(page_title="AI Image Generator 🎨", layout="centered")
 st.title("🧠 AI Image Generator from Text")
 st.write("Enter a prompt, and get an AI-generated image!")
 
-openai.api_key = os.getenv(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)
+openai.api_key = os.getenv(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)
 
 prompt = st.text_input("Enter image description:", placeholder="e.g. A cat wearing sunglasses on a beach")
 
